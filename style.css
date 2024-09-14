@@ -1,0 +1,30 @@
+*{
+    padding: 0
+    margin: 0
+    box-sizing: border-box;
+}
+body{
+    font-family: 'outfit';
+    background: white #ffffff;
+}
+.contact-container{
+    height: 3vh;
+    display: normal;
+    align-times: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-tittle h2{
+    size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-tittle hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+}
